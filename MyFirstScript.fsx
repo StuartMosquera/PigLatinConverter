@@ -1,5 +1,3 @@
-// For FSI
-
 let toPigLatin (word: string) =
     let isVowel (c: char) =
         match c with

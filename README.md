@@ -7,4 +7,4 @@ The **Pig Latin Converter** project, as the name suggests, translates any Englis
 1. Download or clone the repository.
 2. Use the command `dotnet run` followed by any English word.
 
-You can run the F# Script (`fsx`) using the following command `dotnet fsi --use:MyFirstScript.fsx`.
+The F# Script (`fsx`) can be run using the following command: `dotnet fsi --use:MyFirstScript.fsx`.
