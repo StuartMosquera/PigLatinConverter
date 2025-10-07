@@ -15,7 +15,8 @@ module PigLatin =
 
 [<EntryPoint>]
 let main args =
-    for arg in args do
+    Array.iter (fun arg ->
         let newArg = PigLatin.toPigLatin arg
         printfn "%s in Pig Latin is: %s" arg newArg
+    ) args
     0
